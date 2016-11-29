@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equvi="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Random Restaurant</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visable-md visable-lg hidden-xs">
+						<div id="logo-img"></div>
+					</a>
+
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Random Restaurant</h1></a>
+						<p><img src="images/star-k-logo.png" alt="certification"> <span>Certified</span></p>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            		<span class="sr-only">Toggle navigation</span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+            			<span class="icon-bar"></span>
+         			 </button>
+
+         			  <div id="collapsable-nav" class="collapse navbar-collapse navbar-right">
+           				<ul id="nav-list" class="nav navbar-nav ">
+           					<li class="visible-xs active">
+           						<a href="index.html">
+           							<span class="glyphicon glyphicon-home">Home</span>
+           						</a>
+           					</li>
+				            <li>
+				              <a href="menu-categories.html">
+				                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+				            </li>
+				            <li>
+				              <a href="#">
+				                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+				            </li>
+				            <li>
+				              <a href="#">
+				                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+				            </li>
+				            <li id="phone" class="hidden-xs">
+				              <a href="tel:XX-XXXX-XXX">
+				                <span>XX-XXXX-XXX</span></a><div>* We Deliver</div>
+				            </li>
+				          </ul>
+
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	 <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:XX-XXXX-XXX">
+    <span class="glyphicon glyphicon-earphone"></span>
+    XX-XXXX-XXX
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+<div id="main-content" class="container">
+	<div class="jumbotron">
+		<img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+	</div>
+
+	  <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://www.google.hr/maps/place/Samoborska+cesta+234,+10000,+Zagreb/@45.8121216,15.863848,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d1a2eb30aaa9:0x6efcd0678f0c54b7!8m2!3d45.8121179!4d15.8660367?hl=hr" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.9568971031244!2d15.86384801507044!3d45.81212161818199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d1a2eb30aaa9%3A0x6efcd0678f0c54b7!2sSamoborska+cesta+234%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1468256796257" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe> 
+            <span>map</span>
+          			</div>
+        		 </a>
+			</div>
+		</div>
+	</div>
+
+<footer class="panel-footer">
+	<div class="container">
+		<div class="row">
+			 <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          Samoborska Cesta 234<br>
+          Zagreb
+          <p>* Dostava unutar 5km, za narudzbe iznad 50kn</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, perferendis inventore dolorem rerum et tempora sint nemo"</p>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</p>
+        </section>
+		</div>
+		<div class="text-center">&copy;Tutorial za nigdjezemski restoran</div>
+    </div>
+    </footer>
+
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
